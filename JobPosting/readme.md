@@ -33,8 +33,17 @@
   </div>
   <div itemprop="hiringOrganization" itemscope itemtype="https://schema.org/Organization">
     <span itemprop="name">Organization name</span>
+    <meta itemprop="telephone" content="70000000000">
+    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+      <meta itemprop="streetAddress" content="street address">
+      <meta itemprop="addressLocality" content="city">
+      <meta itemprop="postalCode" content="101010">
+      <meta itemprop="addressCountry" content="RU">
+    </div>
   </div>
   <div itemprop="jobLocation" itemscope itemtype="https://schema.org/Place">
+    <span itemprop="name">Organization name</span>
+    <meta itemprop="telephone" content="70000000000">
     <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
       <span itemprop="streetAddress">555 Clancy St</span>
       <span itemprop="addressLocality">Detroit</span>
@@ -56,10 +65,20 @@
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum distinctio ducimus magni maiores minima modi mollitia, non obcaecati optio qui quis voluptas voluptates. Dolores illo maxime similique sit suscipit.",
     "hiringOrganization" : {
       "@type" : "Organization",
-      "name" : "Organization name"
+      "name" : "Organization name",
+      "telephone": "70000000000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "street address",
+        "addressLocality": "city",
+        "postalCode": "101010",
+        "addressCountry": "RU"
+      }
     },
     "jobLocation": {
       "@type": "Place",
+      "name" : "Organization name",
+      "telephone": "70000000000",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "555 Clancy St",

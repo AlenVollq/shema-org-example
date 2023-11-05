@@ -26,6 +26,13 @@
   <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
     <img itemprop="image" src="https://example.ru/image/image.jpg" alt="Image alt"/>
     <span itemprop="name">Organization name</span>
+    <meta itemprop="telephone" content="70000000000">
+    <div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+      <meta itemprop="streetAddress" content="street address">
+      <meta itemprop="addressLocality" content="city">
+      <meta itemprop="postalCode" content="101010">
+      <meta itemprop="addressCountry" content="RU">
+    </div>
   </div>
   <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
     <span itemprop="ratingValue">4</span>
@@ -33,6 +40,7 @@
     <meta itemprop="bestRating" content="5">
   </span>
   <span itemprop="name">Review title</span>
+  <link itemprop="url" href="https://example.ru/review/">
   <div itemprop="reviewBody">
     Review description
   </div>
@@ -53,7 +61,15 @@
     "itemReviewed": {
       "@type": "Organization",
       "image": "https://example.ru/image/image.jpg",
-      "name": "Organization name"
+      "name": "Organization name",
+      "telephone": "70000000000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "street address",
+        "addressLocality": "city",
+        "postalCode": "101010",
+        "addressCountry": "RU"
+      }
     },
     "reviewRating": {
       "@type": "Rating",
@@ -62,6 +78,7 @@
       "bestRating": "5"
     },
     "name": "Review title",
+    "url": "https://example.ru/review/",
     "reviewBody": "Review description",
     "datePublished": "2023-11-04 12:45:57"
   }

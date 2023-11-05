@@ -20,6 +20,7 @@
 ```html
 <div itemscope itemtype="https://schema.org/SoftwareApplication">
   <span itemprop="name">Angry Birds</span>
+  <span itemprop="description">Application description</span>
   <span itemprop="operatingSystem">ANDROID</span>
   <span itemprop="applicationCategory">GameApplication</span>
   <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
@@ -40,6 +41,7 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "Angry Birds",
+    "description": "Application description",
     "operatingSystem": "ANDROID",
     "applicationCategory": "GameApplication",
     "aggregateRating": {
