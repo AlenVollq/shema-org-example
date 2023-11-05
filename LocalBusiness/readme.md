@@ -37,7 +37,8 @@
 ```html
 <div itemscope itemtype="https://schema.org/LocalBusiness">
   <meta itemprop="name" content="Market">
-  <link itemprop="image" href="https://example.ru/image/logo.svg">
+  <link itemprop="image" href="https://example.ru/image/image.png">
+  <link itemprop="logo" href="https://example.ru/image/logo.svg">
   <link itemprop="url" href="https://example.ru/">
   <meta itemprop="priceRange" content="$$">
   <meta itemprop="telephone" content="70000000000">
@@ -89,7 +90,8 @@
   </div>
   <div itemprop="department" itemscope itemtype="https://schema.org/LocalBusiness">
     <meta itemprop="name" content="Market Department">
-    <link itemprop="image" href="https://example.ru/image/logo.svg">
+    <link itemprop="image" href="https://example.ru/image/image.png">
+    <link itemprop="logo" href="https://example.ru/image/logo.svg">
     <link itemprop="url" href="https://example.ru/">
     <meta itemprop="priceRange" content="$$">
     <meta itemprop="telephone" content="71111111111">
@@ -150,7 +152,8 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Market",
-    "image": "https://example.ru/image/logo.svg",
+    "image": "https://example.ru/image/image.png",
+    "logo": "https://example.ru/image/logo.svg",
     "url": "https://example.ru/",
     "telephone": "70000000000",
     "email": "info@example.ru",
@@ -190,7 +193,8 @@
     "department": [{
       "@type": "LocalBusiness",
       "name": "Market Department",
-      "image": "https://example.ru/image/logo.svg",
+      "image": "https://example.ru/image/image.png",
+      "logo": "https://example.ru/image/logo.svg",
       "url": "https://example.ru/",
       "telephone": "71111111111",
       "email": "info@example.ru",
