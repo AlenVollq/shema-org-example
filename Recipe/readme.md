@@ -8,7 +8,7 @@
 
 |itemprop| type                    | required | description                                                                                                                                               |
 | -- |-------------------------|----|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[ttps://schema.org/Recipe](ttps://schema.org/Recipe)|                         |    |                                                                                                                                                           |
+|[https://schema.org/Recipe](https://schema.org/Recipe)|                         |    |                                                                                                                                                           |
 |`name`| Text                    | *  | Название блюда                                                                                                                                            |
 |`image`| URL или ImageObject     | *  | Изображение готового блюда                                                                                                                                |
 |`author`| Person или Organization |    | Автор рецепта (имя человека или название организации)                                                                                                     |
